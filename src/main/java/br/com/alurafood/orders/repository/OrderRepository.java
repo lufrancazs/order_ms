@@ -4,8 +4,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
-import br.com.alurafood.orders.entities.Order;
 import br.com.alurafood.orders.enums.OrderStatus;
+import br.com.alurafood.orders.model.Order;
 import jakarta.transaction.Transactional;
 
 public interface OrderRepository extends JpaRepository<Order, Long>{

@@ -1,4 +1,4 @@
-package br.com.alurafood.orders.entities;
+package br.com.alurafood.orders.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 
 import br.com.alurafood.orders.dto.OrderDTO;
 import br.com.alurafood.orders.dto.OrderStatusDTO;
-import br.com.alurafood.orders.entities.Order;
 import br.com.alurafood.orders.enums.OrderStatus;
+import br.com.alurafood.orders.model.Order;
 import br.com.alurafood.orders.repository.OrderRepository;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
@@ -23,6 +23,7 @@ public class OrderService {
 	@Autowired
 	private OrderRepository repository;
 	
+	@Autowired
 	private final ModelMapper modelMapper;
 	
 	public List<OrderDTO> findAll(){
