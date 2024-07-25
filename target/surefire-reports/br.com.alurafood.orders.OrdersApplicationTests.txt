@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.alurafood.orders.OrdersApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.131 s -- in br.com.alurafood.orders.OrdersApplicationTests

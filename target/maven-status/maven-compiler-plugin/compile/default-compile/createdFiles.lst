@@ -1,0 +1,11 @@
+br\com\alurafood\orders\dto\OrderItemDTO.class
+br\com\alurafood\orders\model\OrderItem.class
+br\com\alurafood\orders\dto\OrderStatusDTO.class
+br\com\alurafood\orders\enums\OrderStatus.class
+br\com\alurafood\orders\OrdersApplication.class
+br\com\alurafood\orders\config\Configuration.class
+br\com\alurafood\orders\service\OrderService.class
+br\com\alurafood\orders\repository\OrderRepository.class
+br\com\alurafood\orders\model\Order.class
+br\com\alurafood\orders\dto\OrderDTO.class
+br\com\alurafood\orders\controller\OrderController.class
