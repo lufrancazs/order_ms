@@ -8,7 +8,7 @@ import br.com.alurafood.orders.dto.PaymentDTO;
 @Component
 public class PaymentsListener {
 	
-	@RabbitListener(queues = "payment.check")
+	@RabbitListener(queues = "payments.details-orders")
 	public void getMessage(PaymentDTO payment) {
 		
 		String msg = """
